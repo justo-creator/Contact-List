@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=contacts_product" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List</title>
+</head>
+<body>
+
+    <header class="header-container">
+
+        <section class="section-container">
+
+            <h1>Add Existent Contact</h1>
+            <form action="#">
+                <input type="text" id="InputName" placeholder="Contact Name:" autocomplete="on">
+                <input type="tel" id="InputPhone" placeholder="Contact Phone:">
+                <select name="" id="InputGender">
+                    <option value="select">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Others</option>
+                    <option value="not">Prefer dont say it</option>
+                </select>
+                <button id="ContactButton">Add Contact <span class="material-symbols-outlined">
+                    contacts_product
+                    </span></button>
+                <a href="#"><strong>New Contact</strong></a>
+            </form>
+
+        </section>
+
+        <section class="section-content">
+            <h2>Contacts</h2>
+            <div>
+                <ul id="ContactList">
+
+                </ul>
+            </div>
+        </section>
+
+    </header>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
